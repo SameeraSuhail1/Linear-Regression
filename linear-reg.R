@@ -1,7 +1,6 @@
-setwd("D:/Sameera/Online Courses/Analytix Labs/Data Science Using SAS and R/BA/Solutions/R/Linear Regression/New")
 
 require(openxlsx)
-datacc<-read.xlsx("D:/Sameera/Online Courses/Analytix Labs/Data Science Using SAS and R/BA/case study/Linear Regression Case.xlsx",sheet = 1)
+datacc<-read.xlsx("Dataset.xlsx",sheet = 1)
 data=datacc
 View(datacc)
 str(datacc)
